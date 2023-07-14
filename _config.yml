@@ -75,7 +75,7 @@ github_username: yenmeng # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
+linkedin_username: Yen Meng # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: zoAxoikAAAAJ&hl # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
@@ -100,13 +100,12 @@ lastfm_id: # your lastfm id
 spotify_id: # your spotify id
 pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
-instagram_id: # your instagram id
-facebook_id: # your facebook id
+instagram_id: anne__meng # your instagram id
+facebook_id: anne.meng.3 # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note: 
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -122,8 +121,8 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
+blog_name:  # blog_name will be displayed in your blog page
+blog_nav_title:  # your blog must have a title for it to be displayed in the nav bar
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 
@@ -158,33 +157,33 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+# external_sources:
+#   - name: medium.com
+#     rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
 
-collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /news/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
+# collections:
+#   news:
+#     defaults:
+#       layout: post
+#     output: true
+#     permalink: /news/:path/
+#   projects:
+#     output: true
+#     permalink: /projects/:path/
 
-announcements:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+# announcements:
+#   enabled: true
+#   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+#   limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+# latest_posts:
+#   enabled: true
+#   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+#   limit: 3 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -273,8 +272,8 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Meng]
+  first_name: [Yen]
 
   style: apa
   locale: en
