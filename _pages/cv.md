@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /assets/pdf/YEN_MENG_CV_2023.pdf
+permalink: /assets/pdf/YEN_MENG_CV.pdf
 title: cv
 nav: true
 nav_order: 5
